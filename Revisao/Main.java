@@ -30,6 +30,10 @@ public class Main {
         System.out.println("Cliente 1: \n Nome: " + a1.getNome() + "\n Idade: " + a1.getIdade() + "\n Email: " + a1.getEmail());
         System.out.println("Cliente 2: \n Nome: " + a2.getNome() + "\n Idade: " + a2.getIdade() + "\n Email: " + a2.getEmail());
         System.out.println("Cliente 3: \n Nome: " + a3.getNome() + "\n Idade: " + a3.getIdade() + "\n Email: " + a3.getEmail());
+
+        double media = (a1.getIdade() + a2.getIdade() + a3.getIdade())/3;
+
+        System.out.println("A média da idade de todos os clientes é " + media);
     }
 
 }
